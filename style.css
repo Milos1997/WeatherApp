@@ -6,7 +6,7 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(#92ff4f, #82ff36);
+    background: linear-gradient(#199aff, #0078d7);
 }
 
 * {
@@ -15,10 +15,14 @@ body{
     box-sizing: border-box;
 }
 
+.icon {
+    max-width: 100%;
+}
+
 .location,
 .temperature {
     height: 30vh;
-    width: 35%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
